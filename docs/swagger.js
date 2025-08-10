@@ -144,7 +144,7 @@ const options = {
             }
         }
     },
-    apis: ['./src/routes/*.ts', './src/controllers/*.ts'] // Arquivos onde estão as anotações JSDoc
+    apis: ['./routes/*.ts', './controllers/*.ts'] // Arquivos onde estão as anotações JSDoc
 };
 const specs = (0, swagger_jsdoc_1.default)(options);
 exports.specs = specs;

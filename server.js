@@ -4,10 +4,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
-const agentesRoutes_1 = __importDefault(require("./src/routes/agentesRoutes"));
-const casosRoutes_1 = __importDefault(require("./src/routes/casosRoutes"));
-const errorHandler_1 = require("./src/utils/errorHandler");
-const swagger_1 = require("./src/docs/swagger");
+const agentesRoutes_1 = __importDefault(require("./routes/agentesRoutes"));
+const casosRoutes_1 = __importDefault(require("./routes/casosRoutes"));
+const errorHandler_1 = require("./utils/errorHandler");
+const swagger_1 = require("./docs/swagger");
 const app = (0, express_1.default)();
 const PORT = 3000;
 app.use(express_1.default.json());
