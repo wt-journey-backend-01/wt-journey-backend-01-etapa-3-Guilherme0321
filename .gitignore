@@ -15,11 +15,7 @@ coverage/
 .nyc_output/
 
 # Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+
 
 # IDE/Editor files
 .vscode/
@@ -60,7 +56,7 @@ pids/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+
 
 # Temporary folders
 tmp/
