@@ -13,7 +13,7 @@
     "test:coverage": "jest --coverage",
     "db:up": "docker-compose up -d",
     "db:down": "docker-compose down",
-    "db:reset": "docker-compose down -v && docker-compose up -d && timeout /t 10 /nobreak > nul && npx knex migrate:latest && npx knex seed:run",
+    "db:reset": "docker-compose down -v && docker-compose up -d && npx knex migrate:latest && npx knex seed:run",
     "db:migrate": "npx knex migrate:latest",
     "db:rollback": "npx knex migrate:rollback",
     "db:seed": "npx knex seed:run"
