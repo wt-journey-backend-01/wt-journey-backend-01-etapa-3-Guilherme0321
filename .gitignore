@@ -67,4 +67,3 @@ tmp/
 temp/
 tests
 jest.config.js
-*.ts
